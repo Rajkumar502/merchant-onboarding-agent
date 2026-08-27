@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  merchant-onboarding-ui:
+    build: .
+    container_name: merchant_onboarding_container
+    ports:
+      - "8501:8501"
+    environment:
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+      - LANGCHAIN_TRACING_V2=${LANGCHAIN_TRACING_V2}
+      - LANGCHAIN_API_KEY=${LANGCHAIN_API_KEY}
+      - LANGCHAIN_PROJECT=${LANGCHAIN_PROJECT}
+    volumes:
+      - .:/app
+      - /app/__pycache__

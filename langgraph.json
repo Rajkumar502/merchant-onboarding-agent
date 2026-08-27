@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "onboarding_workflow": "./src/workflow.py:app"
+  },
+  "env": ".env"
+}
