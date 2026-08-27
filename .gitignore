@@ -57,4 +57,3 @@ checkpoints.sqlite-wal
 
 # LangGraph local development server cache
 .langgraph_api/
-.langgraph/
