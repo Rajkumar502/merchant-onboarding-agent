@@ -46,3 +46,15 @@ htmlcov/
 
 # LangGraph / LangSmith local logs
 .langgraph/
+
+# SQLite local databases and runtime logs
+checkpoints.sqlite
+checkpoints.sqlite-shm
+checkpoints.sqlite-wal
+*.sqlite
+*.sqlite3
+*.db
+
+# LangGraph local development server cache
+.langgraph_api/
+.langgraph/
