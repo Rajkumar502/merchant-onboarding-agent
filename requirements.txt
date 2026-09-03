@@ -6,3 +6,4 @@ langgraph-checkpoint-sqlite
 langsmith
 streamlit
 pytest
+pydantic>=2.0
